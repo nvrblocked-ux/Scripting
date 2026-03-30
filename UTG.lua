@@ -39,7 +39,7 @@ local Section = Tab:Section({
 
 local Input = Tab:Input({
     Title = "Username",
-    Desc = "Input Username
+    Desc = "Input Username"
     Value = "Default value",
     InputIcon = "bird",
     Type = "Input", -- or "Textarea"
