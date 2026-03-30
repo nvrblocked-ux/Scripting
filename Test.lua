@@ -3,14 +3,13 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 local Window = WindUI:CreateWindow({
     -- ...
     
-    KeySystem = {                                                   
-        Note = "Example Key System. With platoboost.",              
-        API = {                                                     
-            { -- PlatoBoost
-                Type = "platoboost",                                
-                ServiceId = 23095, -- service id
-                Secret = "platoboost-secret", -- platoboost secret
-            },                                                      
-        },                                                          
-    },                                                              
-})
+    KeySystem = {
+    Note = "UTG Key System",
+    API = {
+        {
+            Type = "platoboost",
+            ServiceId = 23095,
+            Secret = "2f8cd8e4-d6f9-4ff7-81c3-fb9b57f474ae",
+        },
+    },
+        }
