@@ -43,3 +43,14 @@ MainTab:Label({
 local Tab = Window:Tab({
     Title = "FE Fling",
 })
+
+local Toggle = Tab:Toggle({
+    Title = "Toggle",
+    Desc = "Toggle Description",
+    Icon = "bird",
+    Type = "Checkbox",
+    Value = false, -- default value
+    Callback = function(state) 
+        print("Toggle Activated" .. tostring(state))
+    end
+})
