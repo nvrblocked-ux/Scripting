@@ -42,6 +42,4 @@ MainTab:Label({
 
 local Tab = Window:Tab({
     Title = "FE Fling",
-    Icon = "bird", -- optional
-    Locked = false,
 })
